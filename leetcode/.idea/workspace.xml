@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1800080-f52c-429e-a95f-0d6f73af625f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="ProjectId" id="1XjvW4vADsQbqtw5aCGeYxKtbKL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithm/sortAlgorithm" />
+      <recent name="$PROJECT_DIR$/src/base" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestListEntryNodeOfLoop in spa">
+    <configuration name="go build main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/main/main.go" />
+      <package value="main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHeapSort in algorithm/sortAlgorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/src/algorithm/sortAlgorithm" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algorithm/sortAlgorithm" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHeapSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestListEntryNodeOfLoop in spa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/src/spa" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="spa" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestListEntryNodeOfLoop$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSliceSprintf in base" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/src/base" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="base" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSliceSprintf$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStartMedianNumber in algorithm/leetcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/src/algorithm/leetcode" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algorithm/leetcode" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStartMedianNumber$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="GO111MODULE" value="off" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main" />
+      <item itemvalue="Go Test.TestStartMedianNumber in algorithm/leetcode" />
+      <item itemvalue="Go Test.TestSliceSprintf in base" />
+      <item itemvalue="Go Test.TestHeapSort in algorithm/sortAlgorithm" />
+      <item itemvalue="Go Test.TestListEntryNodeOfLoop in spa" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestListEntryNodeOfLoop in spa" />
+        <item itemvalue="Go Test.TestHeapSort in algorithm/sortAlgorithm" />
+        <item itemvalue="Go Test.TestSliceSprintf in base" />
+        <item itemvalue="Go Test.TestStartMedianNumber in algorithm/leetcode" />
+        <item itemvalue="Go Build.go build main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582015713767">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582015713767" />
+    <state width="559" height="466" key="DebuggerActiveHint" timestamp="1582169416148">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="559" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1582169416148" />
+    <state x="474" y="221" key="EnvironmentVariablesDialog" timestamp="1581661017234">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="221" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1581661017234" />
+    <state width="1398" height="383" key="GridCell.Tab.0.bottom" timestamp="1582171175226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582171175226" />
+    <state width="1398" height="383" key="GridCell.Tab.0.center" timestamp="1582171175226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582171175226" />
+    <state width="1398" height="383" key="GridCell.Tab.0.left" timestamp="1582171175225">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582171175225" />
+    <state width="1398" height="383" key="GridCell.Tab.0.right" timestamp="1582171175226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582171175226" />
+    <state width="1398" height="383" key="GridCell.Tab.1.bottom" timestamp="1582171175227">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582171175227" />
+    <state width="1398" height="383" key="GridCell.Tab.1.center" timestamp="1582171175227">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582171175227" />
+    <state width="1398" height="383" key="GridCell.Tab.1.left" timestamp="1582171175226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582171175226" />
+    <state width="1398" height="383" key="GridCell.Tab.1.right" timestamp="1582171175227">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="383" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582171175227" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1581661485463">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581661485463" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/spa/listNodeLeetCode_test.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/spa/listNodeLeetCode.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/spa/listNodeLeetCode.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/spa/listNodeLeetCode.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/medianNumber.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/base/sliceLearn_test.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
