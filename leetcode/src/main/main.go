@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 func main() {
@@ -27,7 +26,7 @@ func main() {
 	//sortAlgorithm.MergeForSort(arr,0,len(arr)-1)
 	//fmt.Println(arr)
 	//base.SliceStart()
-	stopCh := make(chan interface{})
+	/*stopCh := make(chan interface{})
 	go func() {
 		var s = 0
 		for {
@@ -50,5 +49,28 @@ func main() {
 			break
 		}
 		fmt.Println(v)
-	}
+	}*/
+/*	x, y := 1, 2
+	fmt.Println(test(x, y, add))*/
+	ss := "sfdsfjsdkfjlsdfjsdlnslcnlsdfjlncnsdlkjflwefjwelfnl1831u482fjkencsd"
+	/*sp := *(*[]byte)(unsafe.Pointer(&ss))*/
+	sp:=[]byte(ss)
+	fmt.Println(sp)
+	//debug.PrintStack()
+
+}
+
+type Callback func(x, y int) int
+
+// 提供一个接口，让外部去实现
+func test(x, y int, callback Callback) int {
+	return callback(x, y)
+}
+
+// 回调函数的具体实现
+func add(x, y int) int {
+	return x + y
+}
+func adds(x, y int) int {
+	return x * y
 }

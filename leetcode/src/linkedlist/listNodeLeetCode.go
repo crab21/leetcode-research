@@ -1,4 +1,4 @@
-package spa
+package linkedlist
 
 type ListNodeInfo struct {
 	Val int

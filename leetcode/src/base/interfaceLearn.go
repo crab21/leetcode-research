@@ -1,7 +1,7 @@
 package base
 
 import (
-	"spa"
+	"linkedlist"
 )
 
 type Duck interface {
@@ -19,5 +19,5 @@ func T1() {
 	var ca Duck = &Cat{name: "wang"}
 	ca.Quack()
 	ca.(*Cat).Quack()
-	spa.TTTMall()
+	linkedlist.TTTMall()
 }
