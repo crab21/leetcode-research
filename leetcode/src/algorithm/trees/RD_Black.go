@@ -132,6 +132,7 @@ func (rbtree *RBTree) InsertBalanceFixup(insertNode *RBNode) {
 		}
 	}
 }
+
 /**
  * 旋转图解(以向左旋转为例)：
  *     |                               |
@@ -156,47 +157,60 @@ func (rbt *RBTree) LeftRotate(node *RBNode) {
 	}
 
 	rightChild := node.right
+	rbt.replaceNode(node, rightChild)
 	node.right = rightChild.left
 	if node.right != nil {
 		node.right.parent = node
 	}
 
-	rightChild.parent = node.parent
-	if node.parent == nil {
-		rbt.root = rightChild
-	} else {
-		if node.parent.left == node {
-			node.parent.left = rightChild
-		} else {
-			node.parent.right = rightChild
-		}
-	}
 	rightChild.left = node
 	node.parent = rightChild
 }
 
+/**
+---->主要处理父节点
+替换新、旧节点的父节点
+ */
+func (rbt *RBTree) replaceNode(old *RBNode, new *RBNode) {
+	if old.parent == nil {
+		rbt.root = new
+	} else {
+		if old.parent.left == old {
+			old.parent.left = new
+		} else {
+			old.parent.right = new
+		}
+	}
 
+	if new != nil {
+		new.parent = old.parent
+	}
+}
+/**
+围绕node节点右旋  和左旋相反
+1、先子节点
+2、再子节点父节点
+
+3、旋转节点
+4、旋转节点父节点
+ */
 func (rbt *RBTree) RightRotate(node *RBNode) {
 	if node.left == nil {
 		return
 	}
 	leftChild := node.left
+	//父节点的替换
+	rbt.replaceNode(node, leftChild)
+
+	//子节点本身该放哪里？
 	node.left = leftChild.right
-	if  node.left != nil {
+	//子节点的父节点是谁？
+	if node.left != nil {
 		node.left.parent = node
 	}
-
-	leftChild.parent = node.parent
-	if node.parent == nil {
-		rbt.root = leftChild
-	}else{
-		if node.parent.right == node {
-			node.parent.right = leftChild
-		}else{
-			node.parent.left = leftChild
-		}
-	}
+	//旋转接点该放哪里？
 	leftChild.right = node
+	//旋转接点的父节点是谁？
 	node.parent = leftChild
 }
 
