@@ -84,7 +84,9 @@ func Palindrome(str string) {
 		kp := subpalidromelen(sbStr, k)
 		if kp > 1 {
 			skp := kp / 2
-			fmt.Println(sbStr[k+skp*2], sbStr[k], sbStr[k-skp*2])
+			//防止kp为奇数
+			skpRest := kp %2
+			fmt.Println(sbStr[k-skp*2-skpRest:k+skp*2+skpRest])
 			fmt.Println(kp)
 		}
 		if kp > max_length {
